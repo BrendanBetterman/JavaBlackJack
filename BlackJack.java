@@ -16,7 +16,7 @@ public class BlackJack{
                     case "help":
                         System.out.println(game.helpCommand());
                         break;
-                    case "start":
+                    case "play":
                         System.out.println(game.start());
                         break;
                     case "hit":
