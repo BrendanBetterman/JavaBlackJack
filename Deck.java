@@ -11,7 +11,7 @@ public class Deck{
     public Deck(){
         for(int s = 0; s < this.suit.length; s ++){
             for (int c = 0; c < this.cards.length; c++){
-                this.deck[this.cards.length*s + c] = ( this.cards[c] +" "+ this.suit[s]);
+                this.deck[this.cards.length*s + c] = ( this.cards[c] + this.suit[s]);
             }
         }
     }
